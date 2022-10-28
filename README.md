@@ -1,5 +1,7 @@
 # Flow by //42 - Documentation
 
+![Flow logo](https://github.com/parallel42/flow-documentation/blob/main/flow_logo.png)
+
 Scripting in Flow is fairly straightforward. Flow's scripting engine taps into the sim's javascript confines to give you access to data and functions you normally wouldn't have access to outside of JS. We've built our own internal APIs to make it easy for anyone with basic knowledge of javascript to create scripts.
 
 While there is a code editor in sim, we **strongly recommend** using a full external code editor (like [Visual Studio Code](https://code.visualstudio.com/)) to write your code. You can easily copy back-forth between the Flow script editor and your external code editor. 
