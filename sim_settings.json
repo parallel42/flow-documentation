@@ -8,7 +8,7 @@
 			["VR", "1"]
 		]
 	}, {
-		"id": "anti-aliasing_pc",
+		"id": "anti_aliasing_pc",
 		"title": "ANTI-ALIASING",
 		"mode": "PC",
 		"choices": [
@@ -66,7 +66,7 @@
 		"step": 10,
 		"is_percent": true
 	}, {
-		"id": "v-sync_pc",
+		"id": "v_sync_pc",
 		"title": "V-SYNC",
 		"mode": "PC",
 		"choices": [
@@ -126,7 +126,7 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "off_screen_terrain_pre-caching_pc",
+		"id": "off_screen_terrain_pre_caching_pc",
 		"title": "OFF SCREEN TERRAIN PRE-CACHING",
 		"mode": "PC",
 		"choices": [
@@ -388,7 +388,7 @@
 			["High", 2]
 		]
 	}, {
-		"id": "anti-aliasing_vr",
+		"id": "anti_aliasing_vr",
 		"title": "ANTI-ALIASING",
 		"mode": "VR",
 		"choices": [
@@ -483,7 +483,7 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "off_screen_terrain_pre-caching_vr",
+		"id": "off_screen_terrain_pre_caching_vr",
 		"title": "OFF SCREEN TERRAIN PRE-CACHING",
 		"mode": "VR",
 		"choices": [
@@ -912,7 +912,7 @@
 			["On", 1]
 		]
 	}, {
-		"id": "atc_text-to-speech_settings",
+		"id": "atc_text_to-speech_settings",
 		"title": "ATC TEXT-TO-SPEECH SETTINGS",
 		"choices": [
 			["Off", "0"],
@@ -1271,7 +1271,7 @@
 			["On", 1]
 		]
 	}, {
-		"id": "live_real-world_air_traffic",
+		"id": "live_real_world_air_traffic",
 		"title": "LIVE REAL-WORLD AIR TRAFFIC",
 		"choices": [
 			["Off", 0],
@@ -1365,7 +1365,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "p-factor",
+		"id": "p_factor",
 		"title": "P-FACTOR",
 		"min": 0,
 		"max": 100,
@@ -1442,7 +1442,7 @@
 			["Lt. Diana Drayer", "Pilot_Female_Military"]
 		]
 	}, {
-		"id": "co-pilot_avatar",
+		"id": "co_pilot_avatar",
 		"title": "CO-PILOT AVATAR",
 		"choices": [
 			["Default", "Default"],
@@ -1589,7 +1589,7 @@
 			["On", 1]
 		]
 	}, {
-		"id": "skip_pre-flight_cinematics",
+		"id": "skip_pre_flight_cinematics",
 		"title": "SKIP PRE-FLIGHT CINEMATICS",
 		"choices": [
 			["Off", 0],
@@ -1603,7 +1603,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "d-pad_menu_navigation",
+		"id": "d_pad_menu_navigation",
 		"title": "D-PAD MENU NAVIGATION",
 		"choices": [
 			["Off", 0],
