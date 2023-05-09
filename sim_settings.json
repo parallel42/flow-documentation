@@ -1,14 +1,14 @@
 {
 	"sim_version": "1.32.7.0",
 	"sim_settings": [{
-		"id": "select",
+		"id": "graphics_select",
 		"title": "SELECT",
 		"choices": [
 			["PC", "0"],
 			["VR", "1"]
 		]
 	}, {
-		"id": "anti_aliasing_pc",
+		"id": "graphics_anti_aliasing_pc",
 		"title": "ANTI-ALIASING",
 		"mode": "PC",
 		"choices": [
@@ -20,7 +20,7 @@
 			["AMD FSR 2", "9"]
 		]
 	}, {
-		"id": "nvidia_dlss_super_resolution_pc",
+		"id": "graphics_nvidia_dlss_super_resolution_pc",
 		"title": "NVIDIA DLSS SUPER RESOLUTION",
 		"mode": "PC",
 		"choices": [
@@ -32,7 +32,7 @@
 			["DLAA", "6"]
 		]
 	}, {
-		"id": "amd_fsr_2_pc",
+		"id": "graphics_amd_fsr_2_pc",
 		"title": "AMD FSR 2",
 		"mode": "PC",
 		"choices": [
@@ -42,7 +42,7 @@
 			["Quality", "1"]
 		]
 	}, {
-		"id": "render_scaling_pc",
+		"id": "graphics_render_scaling_pc",
 		"title": "RENDER SCALING",
 		"mode": "PC",
 		"min": 30,
@@ -50,15 +50,15 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "nvidia_dlss_frame_generation_pc",
+		"id": "graphics_nvidia_dlss_frame_generation_pc",
 		"title": "NVIDIA DLSS FRAME GENERATION",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "amd_fidelityfx_sharpening_pc",
+		"id": "graphics_amd_fidelityfx_sharpening_pc",
 		"title": "AMD FIDELITYFX SHARPENING",
 		"mode": "PC",
 		"min": 0,
@@ -66,15 +66,15 @@
 		"step": 10,
 		"is_percent": true
 	}, {
-		"id": "v_sync_pc",
+		"id": "graphics_v_sync_pc",
 		"title": "V-SYNC",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "nvidia_reflex_low_latency_pc",
+		"id": "graphics_nvidia_reflex_low_latency_pc",
 		"title": "NVIDIA REFLEX LOW LATENCY",
 		"mode": "PC",
 		"choices": [
@@ -83,7 +83,7 @@
 			["On+Boost", "2"]
 		]
 	}, {
-		"id": "frame_rate_limit_pc",
+		"id": "graphics_frame_rate_limit_pc",
 		"title": "FRAME RATE LIMIT",
 		"mode": "PC",
 		"choices": [
@@ -92,15 +92,15 @@
 			["100% monitor refresh rate", "2"]
 		]
 	}, {
-		"id": "hdr10_pc",
+		"id": "graphics_hdr10_pc",
 		"title": "HDR10",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "directx_version_pc",
+		"id": "graphics_directx_version_pc",
 		"title": "DIRECTX VERSION",
 		"mode": "PC",
 		"choices": [
@@ -108,17 +108,18 @@
 			["DX12 (BETA)", "1"]
 		]
 	}, {
-		"id": "global_rendering_quality_pc",
+		"id": "graphics_global_rendering_quality_pc",
 		"title": "GLOBAL RENDERING QUALITY",
 		"mode": "PC",
 		"choices": [
 			["Low-End", "0"],
 			["Medium", "1"],
 			["High-End", "2"],
-			["Ultra", "3"]
+			["Ultra", "3"],
+			["Custom", ""]
 		]
 	}, {
-		"id": "terrain_level_of_detail_pc",
+		"id": "graphics_terrain_level_of_detail_pc",
 		"title": "TERRAIN LEVEL OF DETAIL",
 		"mode": "PC",
 		"min": 10,
@@ -126,17 +127,17 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "off_screen_terrain_pre_caching_pc",
+		"id": "graphics_off_screen_terrain_pre_caching_pc",
 		"title": "OFF SCREEN TERRAIN PRE-CACHING",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "terrain_vector_data_pc",
+		"id": "graphics_terrain_vector_data_pc",
 		"title": "TERRAIN VECTOR DATA",
 		"mode": "PC",
 		"choices": [
@@ -147,27 +148,27 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "buildings_pc",
+		"id": "graphics_buildings_pc",
 		"title": "BUILDINGS",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "trees_pc",
+		"id": "graphics_trees_pc",
 		"title": "TREES",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "grass_and_bushes_pc",
+		"id": "graphics_grass_and_bushes_pc",
 		"title": "GRASS AND BUSHES",
 		"mode": "PC",
 		"choices": [
@@ -178,7 +179,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "objects_level_of_detail_pc",
+		"id": "graphics_objects_level_of_detail_pc",
 		"title": "OBJECTS LEVEL OF DETAIL",
 		"mode": "PC",
 		"min": 10,
@@ -186,17 +187,17 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "volumetric_clouds_pc",
+		"id": "graphics_volumetric_clouds_pc",
 		"title": "VOLUMETRIC CLOUDS",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "texture_resolution_pc",
+		"id": "graphics_texture_resolution_pc",
 		"title": "TEXTURE RESOLUTION",
 		"mode": "PC",
 		"choices": [
@@ -206,7 +207,7 @@
 			["Ultra", "0"]
 		]
 	}, {
-		"id": "anisotropic_filtering_pc",
+		"id": "graphics_anisotropic_filtering_pc",
 		"title": "ANISOTROPIC FILTERING",
 		"mode": "PC",
 		"choices": [
@@ -217,37 +218,37 @@
 			["16X", "16"]
 		]
 	}, {
-		"id": "texture_supersampling_pc",
+		"id": "graphics_texture_supersampling_pc",
 		"title": "TEXTURE SUPERSAMPLING",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["2x2", 1],
-			["4x4", 2],
-			["6x6", 3],
-			["8x8", 4]
+			["Off", ""],
+			["2x2", ""],
+			["4x4", ""],
+			["6x6", ""],
+			["8x8", ""]
 		]
 	}, {
-		"id": "texture_synthesis_pc",
+		"id": "graphics_texture_synthesis_pc",
 		"title": "TEXTURE SYNTHESIS",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "water_waves_pc",
+		"id": "graphics_water_waves_pc",
 		"title": "WATER WAVES",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""]
 		]
 	}, {
-		"id": "shadow_maps_pc",
+		"id": "graphics_shadow_maps_pc",
 		"title": "SHADOW MAPS",
 		"mode": "PC",
 		"choices": [
@@ -257,7 +258,7 @@
 			["2048", "2048"]
 		]
 	}, {
-		"id": "terrain_shadows_pc",
+		"id": "graphics_terrain_shadows_pc",
 		"title": "TERRAIN SHADOWS",
 		"mode": "PC",
 		"choices": [
@@ -269,7 +270,7 @@
 			["2048", "2048"]
 		]
 	}, {
-		"id": "contact_shadows_pc",
+		"id": "graphics_contact_shadows_pc",
 		"title": "CONTACT SHADOWS",
 		"mode": "PC",
 		"choices": [
@@ -280,17 +281,17 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "windshield_effects_pc",
+		"id": "graphics_windshield_effects_pc",
 		"title": "WINDSHIELD EFFECTS",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "ambient_occlusion_pc",
+		"id": "graphics_ambient_occlusion_pc",
 		"title": "AMBIENT OCCLUSION",
 		"mode": "PC",
 		"choices": [
@@ -301,7 +302,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "cubemap_reflections_pc",
+		"id": "graphics_cubemap_reflections_pc",
 		"title": "CUBEMAP REFLECTIONS",
 		"mode": "PC",
 		"choices": [
@@ -311,7 +312,7 @@
 			["256", "256"]
 		]
 	}, {
-		"id": "raymarched_reflections_pc",
+		"id": "graphics_raymarched_reflections_pc",
 		"title": "RAYMARCHED REFLECTIONS",
 		"mode": "PC",
 		"choices": [
@@ -322,7 +323,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "light_shafts_pc",
+		"id": "graphics_light_shafts_pc",
 		"title": "LIGHT SHAFTS",
 		"mode": "PC",
 		"choices": [
@@ -333,15 +334,15 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "bloom_pc",
+		"id": "graphics_bloom_pc",
 		"title": "BLOOM",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "depth_of_field_pc",
+		"id": "graphics_depth_of_field_pc",
 		"title": "DEPTH OF FIELD",
 		"mode": "PC",
 		"choices": [
@@ -352,7 +353,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "motion_blur_pc",
+		"id": "graphics_motion_blur_pc",
 		"title": "MOTION BLUR",
 		"mode": "PC",
 		"choices": [
@@ -363,32 +364,32 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "lens_correction_pc",
+		"id": "graphics_lens_correction_pc",
 		"title": "LENS CORRECTION",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "lens_flare_pc",
+		"id": "graphics_lens_flare_pc",
 		"title": "LENS FLARE",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "glass_cockpit_refresh_rate_pc",
+		"id": "graphics_glass_cockpit_refresh_rate_pc",
 		"title": "GLASS COCKPIT REFRESH RATE",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""]
 		]
 	}, {
-		"id": "anti_aliasing_vr",
+		"id": "graphics_anti_aliasing_vr",
 		"title": "ANTI-ALIASING",
 		"mode": "VR",
 		"choices": [
@@ -400,7 +401,7 @@
 			["AMD FSR 2", "9"]
 		]
 	}, {
-		"id": "nvidia_dlss_super_resolution_vr",
+		"id": "graphics_nvidia_dlss_super_resolution_vr",
 		"title": "NVIDIA DLSS SUPER RESOLUTION",
 		"mode": "VR",
 		"choices": [
@@ -412,7 +413,7 @@
 			["DLAA", "6"]
 		]
 	}, {
-		"id": "amd_fsr_2_vr",
+		"id": "graphics_amd_fsr_2_vr",
 		"title": "AMD FSR 2",
 		"mode": "VR",
 		"choices": [
@@ -422,7 +423,7 @@
 			["Quality", "1"]
 		]
 	}, {
-		"id": "render_scaling_vr",
+		"id": "graphics_render_scaling_vr",
 		"title": "RENDER SCALING",
 		"mode": "VR",
 		"min": 30,
@@ -430,7 +431,7 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "amd_fidelityfx_sharpening_vr",
+		"id": "graphics_amd_fidelityfx_sharpening_vr",
 		"title": "AMD FIDELITYFX SHARPENING",
 		"mode": "VR",
 		"min": 0,
@@ -438,7 +439,7 @@
 		"step": 10,
 		"is_percent": true
 	}, {
-		"id": "reprojection_mode_vr",
+		"id": "graphics_reprojection_mode_vr",
 		"title": "REPROJECTION MODE",
 		"mode": "VR",
 		"choices": [
@@ -447,7 +448,7 @@
 			["Depth and Motion", "2"]
 		]
 	}, {
-		"id": "world_scale_vr",
+		"id": "graphics_world_scale_vr",
 		"title": "WORLD SCALE",
 		"mode": "VR",
 		"min": 80,
@@ -455,7 +456,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "nvidia_reflex_low_latency_vr",
+		"id": "graphics_nvidia_reflex_low_latency_vr",
 		"title": "NVIDIA REFLEX LOW LATENCY",
 		"mode": "VR",
 		"choices": [
@@ -464,7 +465,7 @@
 			["On+Boost", "2"]
 		]
 	}, {
-		"id": "global_rendering_quality_vr",
+		"id": "graphics_global_rendering_quality_vr",
 		"title": "GLOBAL RENDERING QUALITY",
 		"mode": "VR",
 		"choices": [
@@ -475,7 +476,7 @@
 			["Ultra", "8"]
 		]
 	}, {
-		"id": "terrain_level_of_detail_vr",
+		"id": "graphics_terrain_level_of_detail_vr",
 		"title": "TERRAIN LEVEL OF DETAIL",
 		"mode": "VR",
 		"min": 10,
@@ -483,17 +484,17 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "off_screen_terrain_pre_caching_vr",
+		"id": "graphics_off_screen_terrain_pre_caching_vr",
 		"title": "OFF SCREEN TERRAIN PRE-CACHING",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "terrain_vector_data_vr",
+		"id": "graphics_terrain_vector_data_vr",
 		"title": "TERRAIN VECTOR DATA",
 		"mode": "VR",
 		"choices": [
@@ -504,27 +505,27 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "buildings_vr",
+		"id": "graphics_buildings_vr",
 		"title": "BUILDINGS",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "trees_vr",
+		"id": "graphics_trees_vr",
 		"title": "TREES",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "grass_and_bushes_vr",
+		"id": "graphics_grass_and_bushes_vr",
 		"title": "GRASS AND BUSHES",
 		"mode": "VR",
 		"choices": [
@@ -535,7 +536,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "objects_level_of_detail_vr",
+		"id": "graphics_objects_level_of_detail_vr",
 		"title": "OBJECTS LEVEL OF DETAIL",
 		"mode": "VR",
 		"min": 10,
@@ -543,17 +544,17 @@
 		"step": 5,
 		"is_percent": true
 	}, {
-		"id": "volumetric_clouds_vr",
+		"id": "graphics_volumetric_clouds_vr",
 		"title": "VOLUMETRIC CLOUDS",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "texture_resolution_vr",
+		"id": "graphics_texture_resolution_vr",
 		"title": "TEXTURE RESOLUTION",
 		"mode": "VR",
 		"choices": [
@@ -563,7 +564,7 @@
 			["Ultra", "0"]
 		]
 	}, {
-		"id": "anisotropic_filtering_vr",
+		"id": "graphics_anisotropic_filtering_vr",
 		"title": "ANISOTROPIC FILTERING",
 		"mode": "VR",
 		"choices": [
@@ -574,37 +575,37 @@
 			["16X", "16"]
 		]
 	}, {
-		"id": "texture_supersampling_vr",
+		"id": "graphics_texture_supersampling_vr",
 		"title": "TEXTURE SUPERSAMPLING",
 		"mode": "VR",
 		"choices": [
-			["Off", 0],
-			["2x2", 1],
-			["4x4", 2],
-			["6x6", 3],
-			["8x8", 4]
+			["Off", ""],
+			["2x2", ""],
+			["4x4", ""],
+			["6x6", ""],
+			["8x8", ""]
 		]
 	}, {
-		"id": "texture_synthesis_vr",
+		"id": "graphics_texture_synthesis_vr",
 		"title": "TEXTURE SYNTHESIS",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "water_waves_vr",
+		"id": "graphics_water_waves_vr",
 		"title": "WATER WAVES",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""]
 		]
 	}, {
-		"id": "shadow_maps_vr",
+		"id": "graphics_shadow_maps_vr",
 		"title": "SHADOW MAPS",
 		"mode": "VR",
 		"choices": [
@@ -614,7 +615,7 @@
 			["2048", "2048"]
 		]
 	}, {
-		"id": "terrain_shadows_vr",
+		"id": "graphics_terrain_shadows_vr",
 		"title": "TERRAIN SHADOWS",
 		"mode": "VR",
 		"choices": [
@@ -626,7 +627,7 @@
 			["2048", "2048"]
 		]
 	}, {
-		"id": "contact_shadows_vr",
+		"id": "graphics_contact_shadows_vr",
 		"title": "CONTACT SHADOWS",
 		"mode": "VR",
 		"choices": [
@@ -637,17 +638,17 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "windshield_effects_vr",
+		"id": "graphics_windshield_effects_vr",
 		"title": "WINDSHIELD EFFECTS",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "ambient_occlusion_vr",
+		"id": "graphics_ambient_occlusion_vr",
 		"title": "AMBIENT OCCLUSION",
 		"mode": "VR",
 		"choices": [
@@ -658,7 +659,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "cubemap_reflections_vr",
+		"id": "graphics_cubemap_reflections_vr",
 		"title": "CUBEMAP REFLECTIONS",
 		"mode": "VR",
 		"choices": [
@@ -668,7 +669,7 @@
 			["256", "256"]
 		]
 	}, {
-		"id": "raymarched_reflections_vr",
+		"id": "graphics_raymarched_reflections_vr",
 		"title": "RAYMARCHED REFLECTIONS",
 		"mode": "VR",
 		"choices": [
@@ -679,7 +680,7 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "light_shafts_vr",
+		"id": "graphics_light_shafts_vr",
 		"title": "LIGHT SHAFTS",
 		"mode": "VR",
 		"choices": [
@@ -690,59 +691,59 @@
 			["Ultra", "3"]
 		]
 	}, {
-		"id": "bloom_vr",
+		"id": "graphics_bloom_vr",
 		"title": "BLOOM",
 		"mode": "VR",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "glass_cockpit_refresh_rate_vr",
+		"id": "graphics_glass_cockpit_refresh_rate_vr",
 		"title": "GLASS COCKPIT REFRESH RATE",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""]
 		]
 	}, {
-		"id": "camera_selection",
+		"id": "camera_camera_selection",
 		"title": "CAMERA SELECTION",
 		"choices": [
-			["Cockpit", 0],
-			["Chase", 1]
+			["Cockpit", ""],
+			["Chase", ""]
 		]
 	}, {
-		"id": "quick_view_function",
+		"id": "camera_quick_view_function",
 		"title": "QUICK VIEW FUNCTION",
 		"choices": [
-			["Toggle", 0],
-			["Hold", 1]
+			["Toggle", ""],
+			["Hold", ""]
 		]
 	}, {
-		"id": "smart_camera",
+		"id": "camera_smart_camera",
 		"title": "SMART CAMERA",
 		"choices": [
-			["Toggle", 0],
-			["Hold", 1]
+			["Toggle", ""],
+			["Hold", ""]
 		]
 	}, {
-		"id": "zoom_function",
+		"id": "camera_zoom_function",
 		"title": "ZOOM FUNCTION",
 		"choices": [
-			["Manual", 0],
-			["Focus", 1]
+			["Manual", ""],
+			["Focus", ""]
 		]
 	}, {
-		"id": "focus_mode",
+		"id": "camera_focus_mode",
 		"title": "FOCUS MODE",
 		"choices": [
-			["Toggle", 0],
-			["Hold", 1]
+			["Toggle", ""],
+			["Hold", ""]
 		]
 	}, {
-		"id": "cockpit_camera_selection",
+		"id": "camera_cockpit_camera_selection",
 		"title": "COCKPIT CAMERA SELECTION",
 		"choices": [
 			["Landing", "4"],
@@ -751,168 +752,168 @@
 			["HUD", "5"]
 		]
 	}, {
-		"id": "free_look_mode",
+		"id": "camera_free_look_mode",
 		"title": "FREE LOOK MODE",
 		"choices": [
-			["Toggle", 0],
-			["Hold", 1]
+			["Toggle", ""],
+			["Hold", ""]
 		]
 	}, {
-		"id": "free_look_reset",
+		"id": "camera_free_look_reset",
 		"title": "FREE LOOK RESET",
 		"choices": [
-			["Manual", 0],
-			["Auto", 1]
+			["Manual", ""],
+			["Auto", ""]
 		]
 	}, {
-		"id": "head_up_mode",
+		"id": "camera_head_up_mode",
 		"title": "HEAD UP MODE",
 		"choices": [
-			["Toggle", 0],
-			["Hold", 1]
+			["Toggle", ""],
+			["Hold", ""]
 		]
 	}, {
-		"id": "height",
+		"id": "camera_height",
 		"title": "HEIGHT",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "horizontal_position",
+		"id": "camera_horizontal_position",
 		"title": "HORIZONTAL POSITION",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "zoom",
+		"id": "camera_zoom",
 		"title": "ZOOM",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "zoom_speed",
+		"id": "camera_zoom_speed",
 		"title": "ZOOM SPEED",
 		"min": 10,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "freelook_speed",
+		"id": "camera_freelook_speed",
 		"title": "FREELOOK SPEED",
 		"min": 10,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "freelook_momentum",
+		"id": "camera_freelook_momentum",
 		"title": "FREELOOK MOMENTUM",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "camera_shake",
+		"id": "camera_camera_shake",
 		"title": "CAMERA SHAKE",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "flashlight_mode",
+		"id": "camera_flashlight_mode",
 		"title": "FLASHLIGHT MODE",
 		"choices": [
-			["Manual", 0],
-			["Auto", 1]
+			["Manual", ""],
+			["Auto", ""]
 		]
 	}, {
-		"id": "home_cockpit_mode",
+		"id": "camera_home_cockpit_mode",
 		"title": "HOME COCKPIT MODE",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "instrument_view_mode",
+		"id": "camera_instrument_view_mode",
 		"title": "INSTRUMENT VIEW MODE",
 		"choices": [
-			["Toggle", 0],
-			["Hold", 1]
+			["Toggle", ""],
+			["Hold", ""]
 		]
 	}, {
-		"id": "instrument_view_selection",
+		"id": "camera_instrument_view_selection",
 		"title": "INSTRUMENT VIEW SELECTION",
 		"choices": [
-			["Manual", 0],
-			["Auto", 1]
+			["Manual", ""],
+			["Auto", ""]
 		]
 	}, {
-		"id": "pov_reset",
+		"id": "camera_pov_reset",
 		"title": "POV RESET",
 		"choices": [
-			["Manual", 0],
-			["Auto", 1]
+			["Manual", ""],
+			["Auto", ""]
 		]
 	}, {
-		"id": "zoom_speed",
+		"id": "camera_zoom_speed",
 		"title": "ZOOM SPEED",
 		"min": 10,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "external_freelook_speed",
+		"id": "camera_external_freelook_speed",
 		"title": "EXTERNAL FREELOOK SPEED",
 		"min": 10,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "external_freelook_momentum",
+		"id": "camera_external_freelook_momentum",
 		"title": "EXTERNAL FREELOOK MOMENTUM",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "headphone_simulation",
+		"id": "sound_headphone_simulation",
 		"title": "HEADPHONE SIMULATION",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "warning_sounds_in_external_view",
+		"id": "sound_warning_sounds_in_external_view",
 		"title": "WARNING SOUNDS IN EXTERNAL VIEW",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "vhf_signal_degradation",
+		"id": "sound_vhf_signal_degradation",
 		"title": "VHF SIGNAL DEGRADATION",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "active_spatial_sound",
+		"id": "sound_active_spatial_sound",
 		"title": "ACTIVE SPATIAL SOUND",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "convert_audio_to_mono",
+		"id": "sound_convert_audio_to_mono",
 		"title": "CONVERT AUDIO TO MONO",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "atc_text_to-speech_settings",
+		"id": "sound_atc_text_to-speech_settings",
 		"title": "ATC TEXT-TO-SPEECH SETTINGS",
 		"choices": [
 			["Off", "0"],
@@ -920,7 +921,7 @@
 			["Azure", "2"]
 		]
 	}, {
-		"id": "music_selection",
+		"id": "sound_music_selection",
 		"title": "MUSIC SELECTION",
 		"choices": [
 			["COLOR 1", "MUS_COLOR_01"],
@@ -928,91 +929,91 @@
 			["LEGACY", "MUS_LEGACY_01"]
 		]
 	}, {
-		"id": "mute_audio_in_background",
+		"id": "sound_mute_audio_in_background",
 		"title": "MUTE AUDIO IN BACKGROUND",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "master",
+		"id": "sound_master",
 		"title": "MASTER",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "voices",
+		"id": "sound_voices",
 		"title": "VOICES",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "aircraft_engines",
+		"id": "sound_aircraft_engines",
 		"title": "AIRCRAFT ENGINES",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "aircraft_miscellaneous",
+		"id": "sound_aircraft_miscellaneous",
 		"title": "AIRCRAFT MISCELLANEOUS",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "cockpit",
+		"id": "sound_cockpit",
 		"title": "COCKPIT",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "warnings",
+		"id": "sound_warnings",
 		"title": "WARNINGS",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "other_aircraft",
+		"id": "sound_other_aircraft",
 		"title": "OTHER AIRCRAFT",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "environment",
+		"id": "sound_environment",
 		"title": "ENVIRONMENT",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "user_interface",
+		"id": "sound_user_interface",
 		"title": "USER INTERFACE",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "music",
+		"id": "sound_music",
 		"title": "MUSIC",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "select",
+		"id": "traffic_select",
 		"title": "SELECT",
 		"choices": [
 			["PC", "0"],
 			["VR", "1"]
 		]
 	}, {
-		"id": "aircraft_traffic_type_pc",
+		"id": "traffic_aircraft_traffic_type_pc",
 		"title": "AIRCRAFT TRAFFIC TYPE",
 		"mode": "PC",
 		"choices": [
@@ -1021,7 +1022,7 @@
 			["Off", "2"]
 		]
 	}, {
-		"id": "ai_aircraft_traffic_density_pc",
+		"id": "traffic_ai_aircraft_traffic_density_pc",
 		"title": "AI AIRCRAFT TRAFFIC DENSITY",
 		"mode": "PC",
 		"min": 0,
@@ -1029,15 +1030,15 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "show_traffic_nameplates_pc",
+		"id": "traffic_show_traffic_nameplates_pc",
 		"title": "SHOW TRAFFIC NAMEPLATES",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "airport_vehicle_density_pc",
+		"id": "traffic_airport_vehicle_density_pc",
 		"title": "AIRPORT VEHICLE DENSITY",
 		"mode": "PC",
 		"min": 0,
@@ -1045,7 +1046,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "ground_aircraft_density_pc",
+		"id": "traffic_ground_aircraft_density_pc",
 		"title": "GROUND AIRCRAFT DENSITY",
 		"mode": "PC",
 		"min": 0,
@@ -1053,7 +1054,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "worker_density_pc",
+		"id": "traffic_worker_density_pc",
 		"title": "WORKER DENSITY",
 		"mode": "PC",
 		"min": 0,
@@ -1061,7 +1062,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "leisure_boats_pc",
+		"id": "traffic_leisure_boats_pc",
 		"title": "LEISURE BOATS",
 		"mode": "PC",
 		"min": 0,
@@ -1069,7 +1070,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "road_vehicles_pc",
+		"id": "traffic_road_vehicles_pc",
 		"title": "ROAD VEHICLES",
 		"mode": "PC",
 		"min": 0,
@@ -1077,7 +1078,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "ships_and_ferries_pc",
+		"id": "traffic_ships_and_ferries_pc",
 		"title": "SHIPS AND FERRIES",
 		"mode": "PC",
 		"min": 0,
@@ -1085,7 +1086,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "fauna_density_pc",
+		"id": "traffic_fauna_density_pc",
 		"title": "FAUNA DENSITY",
 		"mode": "PC",
 		"min": 0,
@@ -1093,41 +1094,41 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "use_generic_aircraft_models_pc",
+		"id": "traffic_use_generic_aircraft_models_pc",
 		"title": "USE GENERIC AIRCRAFT MODELS",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "use_generic_aircraft_models_pc",
+		"id": "traffic_use_generic_aircraft_models_pc",
 		"title": "USE GENERIC AIRCRAFT MODELS",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "show_multiplayer_aircraft_in_close_proximity_pc",
+		"id": "traffic_show_multiplayer_aircraft_in_close_proximity_pc",
 		"title": "SHOW MULTIPLAYER AIRCRAFT IN CLOSE PROXIMITY",
 		"mode": "PC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "traffic_variety_pc",
+		"id": "traffic_traffic_variety_pc",
 		"title": "TRAFFIC VARIETY",
 		"mode": "PC",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "aircraft_traffic_type_vr",
+		"id": "traffic_aircraft_traffic_type_vr",
 		"title": "AIRCRAFT TRAFFIC TYPE",
 		"mode": "VR",
 		"choices": [
@@ -1136,7 +1137,7 @@
 			["Off", "2"]
 		]
 	}, {
-		"id": "ai_airliners_traffic_density_vr",
+		"id": "traffic_ai_airliners_traffic_density_vr",
 		"title": "AI AIRLINERS TRAFFIC DENSITY",
 		"mode": "VR",
 		"min": 0,
@@ -1144,7 +1145,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "ai_general_aviation_traffic_density_vr",
+		"id": "traffic_ai_general_aviation_traffic_density_vr",
 		"title": "AI GENERAL AVIATION TRAFFIC DENSITY",
 		"mode": "VR",
 		"min": 0,
@@ -1152,15 +1153,15 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "show_traffic_nameplates_vr",
+		"id": "traffic_show_traffic_nameplates_vr",
 		"title": "SHOW TRAFFIC NAMEPLATES",
 		"mode": "VR",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "airport_vehicle_density_vr",
+		"id": "traffic_airport_vehicle_density_vr",
 		"title": "AIRPORT VEHICLE DENSITY",
 		"mode": "VR",
 		"min": 0,
@@ -1168,7 +1169,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "ground_aircraft_density_vr",
+		"id": "traffic_ground_aircraft_density_vr",
 		"title": "GROUND AIRCRAFT DENSITY",
 		"mode": "VR",
 		"min": 0,
@@ -1176,7 +1177,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "worker_density_vr",
+		"id": "traffic_worker_density_vr",
 		"title": "WORKER DENSITY",
 		"mode": "VR",
 		"min": 0,
@@ -1184,7 +1185,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "leisure_boats_vr",
+		"id": "traffic_leisure_boats_vr",
 		"title": "LEISURE BOATS",
 		"mode": "VR",
 		"min": 0,
@@ -1192,7 +1193,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "road_vehicles_vr",
+		"id": "traffic_road_vehicles_vr",
 		"title": "ROAD VEHICLES",
 		"mode": "VR",
 		"min": 0,
@@ -1200,7 +1201,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "ships_and_ferries_vr",
+		"id": "traffic_ships_and_ferries_vr",
 		"title": "SHIPS AND FERRIES",
 		"mode": "VR",
 		"min": 0,
@@ -1208,7 +1209,7 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "fauna_density_vr",
+		"id": "traffic_fauna_density_vr",
 		"title": "FAUNA DENSITY",
 		"mode": "VR",
 		"min": 0,
@@ -1216,104 +1217,104 @@
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "use_generic_aircraft_models_vr",
+		"id": "traffic_use_generic_aircraft_models_vr",
 		"title": "USE GENERIC AIRCRAFT MODELS",
 		"mode": "VR",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "use_generic_aircraft_models_vr",
+		"id": "traffic_use_generic_aircraft_models_vr",
 		"title": "USE GENERIC AIRCRAFT MODELS",
 		"mode": "VR",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "show_multiplayer_aircraft_in_close_proximity_vr",
+		"id": "traffic_show_multiplayer_aircraft_in_close_proximity_vr",
 		"title": "SHOW MULTIPLAYER AIRCRAFT IN CLOSE PROXIMITY",
 		"mode": "VR",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "traffic_variety_vr",
+		"id": "traffic_traffic_variety_vr",
 		"title": "TRAFFIC VARIETY",
 		"mode": "VR",
 		"choices": [
-			["Low", 0],
-			["Medium", 1],
-			["High", 2],
-			["Ultra", 3]
+			["Low", ""],
+			["Medium", ""],
+			["High", ""],
+			["Ultra", ""]
 		]
 	}, {
-		"id": "online_functionality",
+		"id": "data_online_functionality",
 		"title": "ONLINE FUNCTIONALITY",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "bing_data_world_graphics",
+		"id": "data_bing_data_world_graphics",
 		"title": "BING DATA WORLD GRAPHICS",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "photogrammetry",
+		"id": "data_photogrammetry",
 		"title": "PHOTOGRAMMETRY",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "live_real_world_air_traffic",
+		"id": "data_live_real_world_air_traffic",
 		"title": "LIVE REAL-WORLD AIR TRAFFIC",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "live_weather",
+		"id": "data_live_weather",
 		"title": "LIVE WEATHER",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "multiplayer",
+		"id": "data_multiplayer",
 		"title": "MULTIPLAYER",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "data_tracking_reset_day",
+		"id": "data_data_tracking_reset_day",
 		"title": "DATA TRACKING RESET DAY",
 		"min": 1,
 		"max": 31,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "data_limitation",
+		"id": "data_data_limitation",
 		"title": "DATA LIMITATION",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "data_warning",
+		"id": "data_data_warning",
 		"title": "DATA WARNING",
 		"min": 0,
 		"max": 0,
 		"step": 0,
 		"is_percent": true
 	}, {
-		"id": "bandwidth",
+		"id": "data_bandwidth",
 		"title": "BANDWIDTH",
 		"choices": [
 			["Unlimited", "0"],
@@ -1322,64 +1323,64 @@
 			["40 Mbit/s", "40"]
 		]
 	}, {
-		"id": "rolling_cache",
+		"id": "data_rolling_cache",
 		"title": "ROLLING CACHE",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "flight_model",
+		"id": "flight_flight_model",
 		"title": "FLIGHT MODEL",
 		"choices": [
 			["Legacy", "1"],
 			["Modern", "0"]
 		]
 	}, {
-		"id": "global_preset",
+		"id": "flight_global_preset",
 		"title": "GLOBAL PRESET",
 		"choices": [
-			["FSX", 0],
-			["Intermediate", 1],
-			["Realistic", 2]
+			["FSX", ""],
+			["Intermediate", ""],
+			["Realistic", ""]
 		]
 	}, {
-		"id": "generals",
+		"id": "flight_generals",
 		"title": "GENERALS",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "crash_realism",
+		"id": "flight_crash_realism",
 		"title": "CRASH REALISM",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "gyro",
+		"id": "flight_gyro",
 		"title": "GYRO",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "p_factor",
+		"id": "flight_p_factor",
 		"title": "P-FACTOR",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "torque",
+		"id": "flight_torque",
 		"title": "TORQUE",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "language",
+		"id": "misc_language",
 		"title": "LANGUAGE",
 		"choices": [
 			["en-US", "1"],
@@ -1402,7 +1403,7 @@
 			["tr-TR", "27"]
 		]
 	}, {
-		"id": "units_of_measurement",
+		"id": "misc_units_of_measurement",
 		"title": "UNITS OF MEASUREMENT",
 		"choices": [
 			["U.S. System", "0"],
@@ -1410,7 +1411,7 @@
 			["Hybrid", "1"]
 		]
 	}, {
-		"id": "pilot_avatar",
+		"id": "misc_pilot_avatar",
 		"title": "PILOT AVATAR",
 		"choices": [
 			["Default", "Default"],
@@ -1442,7 +1443,7 @@
 			["Lt. Diana Drayer", "Pilot_Female_Military"]
 		]
 	}, {
-		"id": "co_pilot_avatar",
+		"id": "misc_co_pilot_avatar",
 		"title": "CO-PILOT AVATAR",
 		"choices": [
 			["Default", "Default"],
@@ -1474,7 +1475,7 @@
 			["Lt. Diana Drayer", "Pilot_Female_Military"]
 		]
 	}, {
-		"id": "instructor",
+		"id": "misc_instructor",
 		"title": "INSTRUCTOR",
 		"choices": [
 			["Default", "Default"],
@@ -1482,7 +1483,7 @@
 			["Cpt. Jess Molina", "Pilot_Female_Hispanic"]
 		]
 	}, {
-		"id": "military_instructor",
+		"id": "misc_military_instructor",
 		"title": "MILITARY INSTRUCTOR",
 		"choices": [
 			["Default", "Default"],
@@ -1490,63 +1491,63 @@
 			["Lt. Diana Drayer", "Pilot_Female_Military"]
 		]
 	}, {
-		"id": "enable_screen_narrator",
+		"id": "accessibility_enable_screen_narrator",
 		"title": "ENABLE SCREEN NARRATOR",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "screen_narrator_volume",
+		"id": "accessibility_screen_narrator_volume",
 		"title": "SCREEN NARRATOR VOLUME",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "screen_narrator_pitch",
+		"id": "accessibility_screen_narrator_pitch",
 		"title": "SCREEN NARRATOR PITCH",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "screen_narrator_speed",
+		"id": "accessibility_screen_narrator_speed",
 		"title": "SCREEN NARRATOR SPEED",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "minimum_text_size",
+		"id": "accessibility_minimum_text_size",
 		"title": "MINIMUM TEXT SIZE",
 		"min": 18,
 		"max": 36,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "interface_scale",
+		"id": "accessibility_interface_scale",
 		"title": "INTERFACE SCALE",
 		"min": 33,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "cockpit_interaction_system",
+		"id": "accessibility_cockpit_interaction_system",
 		"title": "COCKPIT INTERACTION SYSTEM",
 		"choices": [
 			["Lock", "1"],
 			["Legacy", "0"]
 		]
 	}, {
-		"id": "menu_tooltips",
+		"id": "accessibility_menu_tooltips",
 		"title": "MENU TOOLTIPS",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "instrument_name_tooltips",
+		"id": "accessibility_instrument_name_tooltips",
 		"title": "INSTRUMENT NAME TOOLTIPS",
 		"choices": [
 			["Off", "-1"],
@@ -1554,7 +1555,7 @@
 			["Delayed", "1"]
 		]
 	}, {
-		"id": "instrument_description_tooltips",
+		"id": "accessibility_instrument_description_tooltips",
 		"title": "INSTRUMENT DESCRIPTION TOOLTIPS",
 		"choices": [
 			["Off", "-1"],
@@ -1562,14 +1563,14 @@
 			["Delayed", "1"]
 		]
 	}, {
-		"id": "background_opacity",
+		"id": "accessibility_background_opacity",
 		"title": "BACKGROUND OPACITY",
 		"min": 20,
 		"max": 90,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "main_color",
+		"id": "accessibility_main_color",
 		"title": "MAIN COLOR",
 		"choices": [
 			["Default", "DEFAULT"],
@@ -1582,63 +1583,63 @@
 			["Tritanopia (High Contrast)", "TRITANOPIA_HIGH_CONTRAST"]
 		]
 	}, {
-		"id": "menu_animations",
+		"id": "accessibility_menu_animations",
 		"title": "MENU ANIMATIONS",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "skip_pre_flight_cinematics",
+		"id": "accessibility_skip_pre_flight_cinematics",
 		"title": "SKIP PRE-FLIGHT CINEMATICS",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "controller_vibration",
+		"id": "accessibility_controller_vibration",
 		"title": "CONTROLLER VIBRATION",
 		"min": 0,
 		"max": 100,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "d_pad_menu_navigation",
+		"id": "accessibility_d_pad_menu_navigation",
 		"title": "D-PAD MENU NAVIGATION",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "cursor_acceleration",
+		"id": "accessibility_cursor_acceleration",
 		"title": "CURSOR ACCELERATION",
 		"min": 1,
 		"max": 12,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "cursor_max_speed",
+		"id": "accessibility_cursor_max_speed",
 		"title": "CURSOR MAX SPEED",
 		"min": 1,
 		"max": 12,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "subtitles",
+		"id": "accessibility_subtitles",
 		"title": "SUBTITLES",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "subtitle_text_size",
+		"id": "accessibility_subtitle_text_size",
 		"title": "SUBTITLE TEXT SIZE",
 		"min": 18,
 		"max": 36,
 		"step": 1,
 		"is_percent": true
 	}, {
-		"id": "subtitle_text_color",
+		"id": "accessibility_subtitle_text_color",
 		"title": "SUBTITLE TEXT COLOR",
 		"choices": [
 			["White", "0"],
@@ -1649,7 +1650,7 @@
 			["Green", "5"]
 		]
 	}, {
-		"id": "subtitle_background_color",
+		"id": "accessibility_subtitle_background_color",
 		"title": "SUBTITLE BACKGROUND COLOR",
 		"choices": [
 			["White", "0"],
@@ -1662,53 +1663,53 @@
 			["Cyan", "7"]
 		]
 	}, {
-		"id": "subtitle_background_opacity",
+		"id": "accessibility_subtitle_background_opacity",
 		"title": "SUBTITLE BACKGROUND OPACITY",
 		"min": 0,
 		"max": 100,
 		"step": 25,
 		"is_percent": true
 	}, {
-		"id": "developer_mode",
+		"id": "developers_developer_mode",
 		"title": "DEVELOPER MODE",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "grab_yoke",
+		"id": "vr_grab_yoke",
 		"title": "GRAB YOKE",
 		"choices": [
-			["HOLD", 0],
-			["TOGGLE", 1]
+			["HOLD", ""],
+			["TOGGLE", ""]
 		]
 	}, {
-		"id": "replay_tool",
+		"id": "experimental_replay_tool",
 		"title": "REPLAY TOOL",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "low_power_mode",
+		"id": "experimental_low_power_mode",
 		"title": "LOW POWER MODE",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "use_nanovg_for_xml_gauges",
+		"id": "experimental_use_nanovg_for_xml_gauges",
 		"title": "USE NANOVG FOR XML GAUGES",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}, {
-		"id": "package_reorder_tool",
+		"id": "experimental_package_reorder_tool",
 		"title": "PACKAGE REORDER TOOL",
 		"choices": [
-			["Off", 0],
-			["On", 1]
+			["Off", ""],
+			["On", ""]
 		]
 	}]
 }
